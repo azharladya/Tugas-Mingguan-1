@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fashion Trend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: white;
+            padding: 100px 0;
+        }
+        .cta-btn {
+            background-color: #ff4b5c;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fashion Trend</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero text-center">
+        <div class="container">
+            <h1>Fashion Bukan Hanya Gaya, Ini Adalah Ekspresi Diri!</h1>
+            <p>Temukan tren terbaru yang mencerminkan kepribadian unik Anda.</p>
+            <a href="#products" class="cta-btn">Jelajahi Sekarang</a>
+        </div>
+    </section>
+    
+    <section id="about" class="container my-5">
+        <h2 class="text-center text-primary">Tentang Kami</h2>
+        <p class="text-center">Kami menghadirkan koleksi fashion terbaru dengan kualitas terbaik dan harga bersahabat.</p>
+    </section>
+    
+    <section id="products" class="container my-5">
+        <h2 class="text-center text-danger">Produk Unggulan</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="https://i.pinimg.com/originals/00/65/4b/00654bda10b3760d2c9df0433f95c778.jpg" class="img-fluid rounded" alt="Produk Fashion">
+                <p class="text-success">Gaya Kasual Modern</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://blogunik.com/wp-content/uploads/2018/02/trend-fashion-baju-kerja.jpg" class="img-fluid rounded" alt="Produk Fashion">
+                <p class="text-info">Elegan & Trendi</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://mitramulia.com/kcfinder/upload/files/Informasi/Kombinasi%20Jaket%20Blazer%20Wanita%20dan%20Hijab%20Untuk%20Tampilan%20Kasual%20yang%20Menawan.jpg" class="img-fluid rounded" alt="Produk Fashion">
+                <p class="text-warning">Formal Modern</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container my-5">
+        <h2 class="text-center text-secondary">Hubungi Kami</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nama</label>
+                <input type="text" class="form-control" placeholder="Masukkan nama Anda">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Masukkan email Anda">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Pesan</label>
+                <textarea class="form-control" rows="3" placeholder="Tulis pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </section>
+    
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; 2025 Fashion Trend. Semua Hak Dilindungi.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
